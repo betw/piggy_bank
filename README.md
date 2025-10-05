@@ -96,6 +96,6 @@ The LLM augmentation moves the burden of research and calculation from the user 
 ## User Sketch
 ![User Sketch](ai_augui_sketch.jpg)
 ## User Journey:
-
+The user begins on the Home screen, where they input their trip details using the From Date, To Date, From, and To fields, then selects Select Trip to confirm the itinerary and navigate to the Travel Goal screen. Upon clicking Select Trip, the LLM (Gemini API) receives the context (dates, locations, and default preferences for rooms and food) and automatically outputs the estimated trip costs, categorized into flight, rooms, and food, which are then displayed in a chart on the Travel Goal screen. The user can review this AI-generated budget, or in the event the LLM encounters an error, the system displays a "Sorry" message and encourages the user to manually enter the total cost of the trip and change their savings plan for rooming and food.
 
 
