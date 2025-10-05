@@ -92,3 +92,7 @@ actions
 notes
 The LLM augmentation moves the burden of research and calculation from the user to the LLM. The original estimateCost action is now strictly a calculation of the stored AI-generated or manually-inputted estimate. A manual fallback for cost input will still be available in the final implementation.
 
+# AI-Augmentation UI Sketch and User Journey
+![User Sketch](ai_augui_sketch.jpg)
+
+
