@@ -1,16 +1,16 @@
 {
-  "name": "gemini-schedule-demo",
+  "name": "gemini-trip-cost-estimation",
   "version": "1.0.0",
-  "description": "A demo application showing how to use Google's Gemini API to create student schedules",
-  "main": "dist/dayplanner-tests.js",
+  "description": "A demo application showing how to use Google's Gemini API for travel cost estimation",
+  "main": "dist/piggybank-tests.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node dist/dayplanner-tests.js",
-    "dev": "ts-node --transpile-only dayplanner-tests.ts",
-    "test": "npm run build && node dist/dayplanner-tests.js",
-    "manual": "npm run build && node -e \"require('./dist/dayplanner-tests.js').testManualScheduling()\"",
-    "llm": "npm run build && node -e \"require('./dist/dayplanner-tests.js').testLLMScheduling()\"",
-    "mixed": "npm run build && node -e \"require('./dist/dayplanner-tests.js').testMixedScheduling()\""
+    "start": "npm run build && node dist/piggybank-tests.js",
+    "dev": "ts-node --transpile-only piggybank-tests.ts",
+    "test": "npm run build && node dist/piggybank-tests.js",
+    "international": "npm run build && node -e \"require('./dist/piggybank-tests.js').testInternationalDefaultEstimate()\"",
+    "domestic": "npm run build && node -e \"require('./dist/piggybank-tests.js').testDomesticZeroCostEstimate()\"",
+    "edge": "npm run build && node -e \"require('./dist/piggybank-tests.js').testEdgeCasesAndStateManagement()\""
   },
   "keywords": ["gemini", "ai", "schedule", "student", "demo", "typescript"],
   "author": "Student Demo",
